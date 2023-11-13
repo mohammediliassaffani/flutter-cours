@@ -23,15 +23,15 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(useMaterial3: true),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
+          title: const Text('hey iliass Welcome to Flutter'),
         ),
         body: Container(
           width: double.infinity,
           padding: const EdgeInsets.all(12),
-          child: Column(
+          child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: const [
+            children: [
               Text(
                 'Flutter - The Complete Guide',
                 textAlign: TextAlign.center,
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(height: 16),
               Text(
-                'Learn Flutter step-by-step, from the ground up.',
+                'Learn Flutter step-by-step, cool from the ground up.',
                 textAlign: TextAlign.center,
               ),
             ],
